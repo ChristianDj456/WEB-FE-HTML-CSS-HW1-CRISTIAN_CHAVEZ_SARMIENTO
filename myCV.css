@@ -11,11 +11,13 @@ body {
 h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
+    font-size: 30px;
 }
 
-ul {
+.ul {
     list-style-type: none;
     padding: 0;
+    margin-left: 20px;;
 }
 
 a {
@@ -36,6 +38,12 @@ header {
 .header-content {
     display: flex;
     align-items: 0; 
+    justify-content: 0;
+}
+
+.skills-content {
+    display: flex;
+    align-items: center;
     justify-content: 0;
 }
 
@@ -75,7 +83,12 @@ footer {
     color: #fff;
 }
 
-.social-icons img {
-    width: 30px;
-    margin: 0 10px;
+.icons {
+    width: 35px;
+    /* margin: 0 10px; */
+}
+
+.social-icons {
+    width: 40px;
+    margin: center;
 }
