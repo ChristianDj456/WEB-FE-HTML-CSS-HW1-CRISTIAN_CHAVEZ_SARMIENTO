@@ -1,8 +1,13 @@
 /* myCV.css */
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
-    margin: 5px;
+    margin: 0;
     padding: 0;
     color: #333;
     background-color: aliceblue;
@@ -17,7 +22,8 @@ h2 {
 .ul {
     list-style-type: none;
     padding: 0;
-    margin-left: 20px;;
+    margin-left: 10px;
+    display: inline-block;
 }
 
 a {
@@ -29,35 +35,61 @@ a {
 
 /* Header Styles */
 header {
-    background-color: #000100;
+    background-image: url('img/black.webp');
+    background-position: center center;
     color: #F8F8F8;
     padding: 20px;
-    text-align: center;
+    text-align: 0;
 }
 
 .header-content {
-    display: flex;
-    align-items: 0; 
-    justify-content: 0;
+    width: 100%;
+    /* border: 2px solid red; */
 }
 
-.skills-content {
-    display: flex;
+.personal-info{
+    display: inline-block;
+    /* border: 2px solid green; */
+    width: 80%;
+    margin-top: 50px;
+    vertical-align: top;
+    font-size: 25px;
+}
+
+.profile-picture{
+    align-items: top;
+    display: inline-block;
+}
+
+ .skills-content ul{
+    display: inline-block;
     align-items: center;
     justify-content: 0;
 }
 
+.quote {
+    font-style: italic;
+    font-size: larger;
+    color: #A1A6B4;
+    /* border: #f7f2f2 4px solid; */
+}
+
 .profile-photo {
+    margin-top: 30px;
     border-radius: 60%;
     margin-right: 10px;
     width: 200px;
-    height: 250px;
+    height: 200px;
+    border: white 5px solid;
 }
 
-.personal-info {
-    max-width: 600px;
-    margin-right: 800px;
+.books{
+    display: inline-block;
+    margin-top: 10px;
+    width: 15%;
+    margin-right: 10px;
 }
+
 
 blockquote {
     font-style: italic;
@@ -67,7 +99,7 @@ blockquote {
 /* Section Styles */
 section {
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 10px 20px 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #f9f9f9;
