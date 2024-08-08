@@ -10,13 +10,19 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-image: url('img/background1.jpg');
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 3px solid #000100;
     padding-bottom: 10px;
     font-size: 30px;
+    margin-bottom: 0;
+}
+
+h3, li, p {
+    margin-top: 10px;
 }
 
 .ul {
@@ -26,10 +32,11 @@ h2 {
     display: inline-block;
 }
 
-a {
+/* a {
     color: blue;
     text-decoration: none;
-}
+    border: solid 5px red;
+} */
 
 
 
@@ -44,12 +51,10 @@ header {
 
 .header-content {
     width: 100%;
-    /* border: 2px solid red; */
 }
 
 .personal-info{
     display: inline-block;
-    /* border: 2px solid green; */
     width: 80%;
     margin-top: 50px;
     vertical-align: top;
@@ -62,9 +67,10 @@ header {
 }
 
  .skills-content ul{
+    margin-top: 10px;
     display: inline-block;
     align-items: center;
-    justify-content: 0;
+    margin-left: 20px;
 }
 
 .quote {
@@ -72,7 +78,6 @@ header {
     font-style: italic;
     font-size: larger;
     color: #A1A6B4;
-    /* border: #f7f2f2 4px solid; */
 }
 
 .profile-photo {
@@ -81,7 +86,7 @@ header {
     margin-right: 10px;
     width: 200px;
     height: 200px;
-    border: white 5px solid;
+    border: #81A094 5px solid;
 }
 
 .books{
@@ -92,21 +97,20 @@ header {
 }
 
 
-blockquote {
-    font-style: italic;
-    color: #A1A6B4;
-}
-
 /* Section Styles */
 section {
     padding: 20px;
     margin: 20px 10px 20px 10px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f9f9f9;
+    border: #94C5CC 5px solid;
 }
 
-
+ol {
+    padding: 0;
+    margin-left: 20px;
+}
 
 /* Footer Styles */
 footer {
