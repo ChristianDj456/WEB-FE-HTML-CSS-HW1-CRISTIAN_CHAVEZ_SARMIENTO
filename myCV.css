@@ -68,6 +68,7 @@ header {
 }
 
 .quote {
+    width: 70%;
     font-style: italic;
     font-size: larger;
     color: #A1A6B4;
