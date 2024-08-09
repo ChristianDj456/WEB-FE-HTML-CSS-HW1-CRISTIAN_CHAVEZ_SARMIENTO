@@ -32,13 +32,6 @@ h3, li, p {
     display: inline-block;
 }
 
-/* a {
-    color: blue;
-    text-decoration: none;
-    border: solid 5px red;
-} */
-
-
 
 /* Header Styles */
 header {
@@ -94,6 +87,8 @@ header {
     margin-top: 10px;
     width: 15%;
     margin-right: 10px;
+    border-radius: 10px;
+    border: solid 1px red;
 }
 
 
